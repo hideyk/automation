@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e71a73e-76dc-4b88-a68f-d7cac4183b6d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/stock_tracker/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock_tracker/dbconnector.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock_tracker/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/stock_tracker/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +32,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Python.dbconnector">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="automation" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -45,6 +46,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/instagram_bot/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dbconnector" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="automation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stock_tracker" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stock_tracker/dbconnector.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -76,6 +98,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.dbconnector" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.app" />
       </list>
@@ -111,45 +134,45 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="733" y="301" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1587661862894" />
-    <state width="1882" height="292" key="GridCell.Tab.0.bottom" timestamp="1589009547476">
+    <state width="1882" height="82" key="GridCell.Tab.0.bottom" timestamp="1589117197191">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1882" height="292" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1589009547476" />
-    <state width="1882" height="292" key="GridCell.Tab.0.center" timestamp="1589009547475">
+    <state width="1882" height="82" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1589117197191" />
+    <state width="1882" height="82" key="GridCell.Tab.0.center" timestamp="1589117197190">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1882" height="292" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1589009547475" />
-    <state width="1882" height="292" key="GridCell.Tab.0.left" timestamp="1589009547475">
+    <state width="1882" height="82" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1589117197190" />
+    <state width="1882" height="82" key="GridCell.Tab.0.left" timestamp="1589117197190">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1882" height="292" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1589009547475" />
-    <state width="1882" height="292" key="GridCell.Tab.0.right" timestamp="1589009547476">
+    <state width="1882" height="82" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1589117197190" />
+    <state width="1882" height="82" key="GridCell.Tab.0.right" timestamp="1589117197191">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1882" height="292" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1589009547476" />
-    <state width="1882" height="360" key="GridCell.Tab.1.bottom" timestamp="1589008902806">
+    <state width="1882" height="82" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1589117197191" />
+    <state width="1882" height="360" key="GridCell.Tab.1.bottom" timestamp="1589030114042">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1882" height="360" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1589008902806" />
-    <state width="1882" height="360" key="GridCell.Tab.1.center" timestamp="1589008902806">
+    <state width="1882" height="360" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1589030114042" />
+    <state width="1882" height="360" key="GridCell.Tab.1.center" timestamp="1589030114042">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1882" height="360" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1589008902806" />
-    <state width="1882" height="360" key="GridCell.Tab.1.left" timestamp="1589008902806">
+    <state width="1882" height="360" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1589030114042" />
+    <state width="1882" height="360" key="GridCell.Tab.1.left" timestamp="1589030114041">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1882" height="360" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1589008902806" />
-    <state width="1882" height="360" key="GridCell.Tab.1.right" timestamp="1589008902806">
+    <state width="1882" height="360" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1589030114041" />
+    <state width="1882" height="360" key="GridCell.Tab.1.right" timestamp="1589030114042">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1882" height="360" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1589008902806" />
+    <state width="1882" height="360" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1589030114042" />
     <state x="461" y="189" key="SettingsEditor" timestamp="1589008975606">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="461" y="189" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1589008975606" />
-    <state x="656" y="370" key="com.intellij.ide.util.TipDialog" timestamp="1588941084994">
+    <state x="656" y="370" key="com.intellij.ide.util.TipDialog" timestamp="1589339135092">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="656" y="370" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1588941084994" />
+    <state x="656" y="370" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1589339135092" />
   </component>
 </project>
