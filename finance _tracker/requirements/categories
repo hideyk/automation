@@ -1,0 +1,53 @@
+Schema -
+
+- Category
+    * F&B
+    * Retail
+    * Transport
+    * Contributions
+    * Recreation
+    * Groceries
+    * Fitness
+    * Haircut
+    * Subscriptions
+    * Bills
+    * Learning
+    * Investments
+
+    * Add new category?
+
+- Sub category
+    * F&B
+        : Date
+        : etc
+    * Retail
+    * Transport
+        : Public
+        : Private
+    * Contributions
+    * Recreation
+        : Air ticket
+        : Activity
+        : Hotel
+        : Game
+    * Groceries
+    * Fitness
+        : Gym
+        : Equipment
+        : Misc
+    * Haircut
+    * Subscriptions
+        : LinkedIn
+        : Spotify
+    * Bills
+        : Phone
+        : Insurance
+        : Medical
+    * Learning
+        : Udemy
+        : Coursera
+        : Certificates exam
+    * Investments
+
+    * Add subcategories
+

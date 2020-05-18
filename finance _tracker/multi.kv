@@ -1,0 +1,53 @@
+WindowManager:
+    MainWindow:
+    SecondWindow:
+
+<Pop>:
+    Label:
+        text: "Ahhhhh"
+        size_hint: 0.6, 0.2
+        pos_hint: {"x": 0.2, "top": 1}
+    Button:
+        text: "You pressed the button"
+        size_hint: 0.8, 0.2
+        pos_hint: {"x": 0.1, "y": 0.1}
+        on_release:
+            app.get_running_app().stop()
+
+
+<MainWindow>:
+    name: "main"
+
+    GridLayout:
+        id: grid
+        cols: 1
+
+        GridLayout:
+            id: pwbar
+            cols: 2
+
+            Label:
+                text: "Password: "
+
+            TextInput:
+                id: passw
+                multiline: False
+
+        Button:
+            text: "Submit"
+            on_release:
+                app.root.current = "second" if passw.text != "" else "main"
+                root.manager.transition.direction = "left"
+        Button:
+            text: "Popup"
+            on_release:
+                root.btn()
+
+<SecondWindow>:
+    name: "second"
+
+    Button:
+        text: "Go back"
+        on_release:
+            app.root.current = "main"
+            root.manager.transition.direction = "right"
