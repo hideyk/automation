@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e71a73e-76dc-4b88-a68f-d7cac4183b6d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/finance _tracker/DBConnector.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finance _tracker/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finance _tracker/gui.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finance _tracker/mainpage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finance _tracker/requirements/categories" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finance _tracker/requirements/expense_schema" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/expensetracker/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/expensetracker/project/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/expensetracker/project/mainpage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/expensetracker/project/newcatpage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/expensetracker/project/subcatpage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finance _tracker/DBConnector.py" beforeDir="false" afterPath="$PROJECT_DIR$/expensetracker/project/DBConnector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finance _tracker/mainpage.py" beforeDir="false" afterPath="$PROJECT_DIR$/expensetracker/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finance _tracker/my.kv" beforeDir="false" afterPath="$PROJECT_DIR$/finance _tracker/myasd.kv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finance _tracker/requirements/categories" beforeDir="false" afterPath="$PROJECT_DIR$/requirements/categories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finance _tracker/requirements/expense_schema" beforeDir="false" afterPath="$PROJECT_DIR$/requirements/expense_schema" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,11 +42,13 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hidey\PycharmProjects\automation\expensetracker\project" />
+      <recent name="C:\Users\hidey\PycharmProjects\automation" />
       <recent name="C:\Users\hidey\PycharmProjects\automation\finance _tracker\requirements" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.GUITest">
-    <configuration name="DBConnector" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.scrape_CCP_qns">
+    <configuration name="DBConnector (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="automation" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -50,11 +56,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/finance _tracker" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/expensetracker/project" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/finance _tracker/DBConnector.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/expensetracker/project/DBConnector.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -63,7 +69,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="GUITest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="automation" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -71,11 +77,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/finance _tracker" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/instagram_bot" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/finance _tracker/GUITest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/instagram_bot/app.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -84,7 +90,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dbconnector" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="automation" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -92,11 +98,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stock_tracker" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/expensetracker" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stock_tracker/dbconnector.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/expensetracker/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -105,7 +111,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="gui" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="mainpage (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="automation" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -113,11 +119,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/finance _tracker" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/expensetracker/project" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/finance _tracker/gui.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/expensetracker/project/mainpage.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -126,7 +132,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="kivy" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="scrape_CCP_qns" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="automation" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -134,11 +140,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/finance _tracker" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/udemy scraper" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\hidey\PycharmProjects\automation\finance _tracker\GUITest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/udemy scraper/scrape_CCP_qns.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -149,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.GUITest" />
-        <item itemvalue="Python.gui" />
-        <item itemvalue="Python.DBConnector" />
-        <item itemvalue="Python.kivy" />
-        <item itemvalue="Python.dbconnector" />
+        <item itemvalue="Python.scrape_CCP_qns" />
+        <item itemvalue="Python.app" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.mainpage (1)" />
+        <item itemvalue="Python.DBConnector (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -183,10 +189,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589722100671">
+    <state x="414" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590148629740">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="414" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1589722100671" />
+    <state x="414" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1590148629740" />
     <state x="710" y="342" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589714945358">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -195,22 +201,22 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="733" y="301" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1587661862894" />
-    <state width="1899" height="253" key="GridCell.Tab.0.bottom" timestamp="1589768134231">
+    <state width="1882" height="250" key="GridCell.Tab.0.bottom" timestamp="1590210906185">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="253" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1589768134231" />
-    <state width="1899" height="253" key="GridCell.Tab.0.center" timestamp="1589768134231">
+    <state width="1882" height="250" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1590210906185" />
+    <state width="1882" height="250" key="GridCell.Tab.0.center" timestamp="1590210906185">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="253" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1589768134231" />
-    <state width="1899" height="253" key="GridCell.Tab.0.left" timestamp="1589768134231">
+    <state width="1882" height="250" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1590210906185" />
+    <state width="1882" height="250" key="GridCell.Tab.0.left" timestamp="1590210906185">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="253" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1589768134231" />
-    <state width="1899" height="253" key="GridCell.Tab.0.right" timestamp="1589768134231">
+    <state width="1882" height="250" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1590210906185" />
+    <state width="1882" height="250" key="GridCell.Tab.0.right" timestamp="1590210906185">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="253" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1589768134231" />
+    <state width="1882" height="250" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1590210906185" />
     <state width="1882" height="360" key="GridCell.Tab.1.bottom" timestamp="1589030114042">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -243,9 +249,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="92" y="92" width="1736" height="896" key="dock-window-2/0.0.1920.1080@0.0.1920.1080" timestamp="1589714116276" />
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1589716635814">
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1589967516650">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1589716635814" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1589967516650" />
   </component>
 </project>
