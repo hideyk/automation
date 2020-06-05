@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e71a73e-76dc-4b88-a68f-d7cac4183b6d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/expensetracker/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/expensetracker/project/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/expensetracker/project/mainpage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/expensetracker/project/newcatpage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/expensetracker/project/subcatpage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance _tracker/DBConnector.py" beforeDir="false" afterPath="$PROJECT_DIR$/expensetracker/project/DBConnector.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance _tracker/mainpage.py" beforeDir="false" afterPath="$PROJECT_DIR$/expensetracker/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance _tracker/my.kv" beforeDir="false" afterPath="$PROJECT_DIR$/finance _tracker/myasd.kv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance _tracker/requirements/categories" beforeDir="false" afterPath="$PROJECT_DIR$/requirements/categories" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance _tracker/requirements/expense_schema" beforeDir="false" afterPath="$PROJECT_DIR$/requirements/expense_schema" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,28 +38,7 @@
       <recent name="C:\Users\hidey\PycharmProjects\automation\finance _tracker\requirements" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.scrape_CCP_qns">
-    <configuration name="DBConnector (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="automation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/expensetracker/project" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/expensetracker/project/DBConnector.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.test">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="automation" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -153,13 +123,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="automation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.scrape_CCP_qns" />
         <item itemvalue="Python.app" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.mainpage (1)" />
-        <item itemvalue="Python.DBConnector (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -201,38 +192,38 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="733" y="301" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1587661862894" />
-    <state width="1882" height="250" key="GridCell.Tab.0.bottom" timestamp="1590210906185">
+    <state width="1882" height="360" key="GridCell.Tab.0.bottom" timestamp="1590238692563">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1882" height="250" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1590210906185" />
-    <state width="1882" height="250" key="GridCell.Tab.0.center" timestamp="1590210906185">
+    <state width="1882" height="360" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1590238692563" />
+    <state width="1882" height="360" key="GridCell.Tab.0.center" timestamp="1590238692562">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1882" height="250" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1590210906185" />
-    <state width="1882" height="250" key="GridCell.Tab.0.left" timestamp="1590210906185">
+    <state width="1882" height="360" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1590238692562" />
+    <state width="1882" height="360" key="GridCell.Tab.0.left" timestamp="1590238692562">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1882" height="250" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1590210906185" />
-    <state width="1882" height="250" key="GridCell.Tab.0.right" timestamp="1590210906185">
+    <state width="1882" height="360" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1590238692562" />
+    <state width="1882" height="360" key="GridCell.Tab.0.right" timestamp="1590238692563">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1882" height="250" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1590210906185" />
-    <state width="1882" height="360" key="GridCell.Tab.1.bottom" timestamp="1589030114042">
+    <state width="1882" height="360" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1590238692563" />
+    <state width="1882" height="360" key="GridCell.Tab.1.bottom" timestamp="1590238692563">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1882" height="360" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1589030114042" />
-    <state width="1882" height="360" key="GridCell.Tab.1.center" timestamp="1589030114042">
+    <state width="1882" height="360" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1590238692563" />
+    <state width="1882" height="360" key="GridCell.Tab.1.center" timestamp="1590238692563">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1882" height="360" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1589030114042" />
-    <state width="1882" height="360" key="GridCell.Tab.1.left" timestamp="1589030114041">
+    <state width="1882" height="360" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1590238692563" />
+    <state width="1882" height="360" key="GridCell.Tab.1.left" timestamp="1590238692563">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1882" height="360" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1589030114041" />
-    <state width="1882" height="360" key="GridCell.Tab.1.right" timestamp="1589030114042">
+    <state width="1882" height="360" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1590238692563" />
+    <state width="1882" height="360" key="GridCell.Tab.1.right" timestamp="1590238692563">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1882" height="360" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1589030114042" />
+    <state width="1882" height="360" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1590238692563" />
     <state x="461" y="189" key="SettingsEditor" timestamp="1589008975606">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
