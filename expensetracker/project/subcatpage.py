@@ -35,3 +35,4 @@ class SubcatScreen(Screen):
         self.maingrid.add_widget(self.changeBtn)
         self.maingrid.add_widget(self.button)
         self.add_widget(self.maingrid)
+        print("hello")
