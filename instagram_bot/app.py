@@ -1,12 +1,15 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.chrome.options import Options
 import time
 
 class InstagramBot:
     def __init__(self, email, password):
         self.email = email
         self.password = password
-        self.bot = webdriver.Chrome()
+        self.options = Options()
+        self.options.headless = False
+        self.bot = webdriver.Chrome("./chromedriver.exe", chrome_options=self.options)
 
     def login(self):
         bot = self.bot
